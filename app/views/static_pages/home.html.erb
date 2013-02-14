@@ -1,7 +1,7 @@
 <div class="center hero-unit">
   <h1>Welcome to Paisa Finder!</h1>
   <% @users.each do |user| %>
-    <p>User: <%= user.name %></p>
+    <p>User: <%= link_to user.name, user %></p>
   <% end %>    
 
   <%= link_to "Sign up now!", '#', class: "btn btn-large btn-primary" %>
