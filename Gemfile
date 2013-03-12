@@ -39,6 +39,10 @@ group :test do
 	gem "email_spec", ">= 1.4.0"
 	gem "cucumber-rails", ">= 1.3.0", require: false
 	gem "launchy", ">= 2.1.2"
+	gem "rb-fsevent"
+	gem "guard-rspec"
+	gem "guard-spork"
+	gem 'fuubar'
 end
 
 group :development do
